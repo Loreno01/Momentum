@@ -1,0 +1,226 @@
+{
+  "duracaoMeses": 30,
+  "explicacao": "Cada cenário dura 30 meses, dois anos e meio. Uma partida de 10 anos passa por 4 cenários, sorteados desta lista sem repetir. O campo preco é o empurrão mensal no preço. O preço da renda fixa permanece o preço base. O percentual ao mês é sorteado de novo a cada mês, dentro de uma faixa do risco, e o pagamento é esse percentual vezes o preço base. A manchete é curta. O texto conta o evento. O complemento explica o efeito nas áreas e só aparece no modo com dicas, junto de Tende a ajudar e Tende a prejudicar.",
+  "cenarios": [
+    {
+      "id": "guerra-energia",
+      "alcance": "Mundo",
+      "manchete": "Guerra e petróleo",
+      "texto": "Um conflito grande interrompe poços, refinarias ou os estreitos por onde o petróleo passa. A oferta some de uma vez e o barril dispara. Reabrir rota, reconstruir poço e refazer contrato demora, então a energia fica cara por anos. Transporte, fábrica e viagem passam a pagar mais por cada litro.",
+      "complemento": "Preço de empresa sobe quando ela passa a vender o mesmo produto por mais dinheiro. Quem produz petróleo e minério recebe mais por cada carga, então essas ações se valorizam. A indústria aeroespacial sobe junto porque, numa guerra, defesa tem comprador certo. Combustível caro também muda a vida de quem consome: viajar pesa, o hotel esvazia, e a família, pagando mais na conta de energia, corta compra no shopping e no varejo. Para segurar o preço das coisas, os juros sobem. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual.",
+      "duracaoMeses": 30,
+      "preco": {
+        "petroleo": 0.04,
+        "mineracao": 0.03,
+        "aeroespacial": 0.03,
+        "hoteis": -0.035,
+        "shopping": -0.025,
+        "varejo": -0.025
+      }
+    },
+    {
+      "id": "pandemia",
+      "alcance": "Mundo",
+      "manchete": "Pandemia",
+      "texto": "Uma doença nova se espalha entre países e, por um longo período, as pessoas evitam contato. Cidade, escola, escritório e aeroporto esvaziam. A circulação é restringida, o comércio presencial para e o trabalho que pode ser feito de casa passa a ser feito de casa. A doença recua, mas o hábito de comprar e trabalhar longe da rua permanece por anos.",
+      "complemento": "Um negócio vale menos quando o cliente para de aparecer. Hotel, shopping e a indústria de bebidas dependem de gente na rua, em festa ou em viagem, então o preço deles cai. A compra não some: ela sai da loja e vai de entrega até a casa, e o galpão que guarda e despacha essa mercadoria passa a valer mais. Avião parado significa menos voo, e a indústria aeroespacial sente isso. O medo também faz o dinheiro procurar os juros curtos. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual.",
+      "duracaoMeses": 30,
+      "preco": {
+        "logistica": 0.035,
+        "hoteis": -0.04,
+        "shopping": -0.035,
+        "aeroespacial": -0.03,
+        "bebidas": -0.025
+      }
+    },
+    {
+      "id": "boom-tecnologico",
+      "alcance": "Mundo",
+      "manchete": "Boom tecnológico",
+      "texto": "Uma leva de tecnologia nova — rede, software, dado — muda o que as empresas conseguem fazer. O dinheiro corre para quem parece estar na frente dessa mudança. Por anos, crescer rápido vale mais do que lucrar agora, e o mercado aceita preço alto em troca da promessa.",
+      "complemento": "Quando uma novidade parece mudar o mundo, o investidor aceita pagar caro por quem está nessa onda, mesmo com pouco lucro hoje. Bitcoin e as redes de cripto são a aposta mais arriscada, e a indústria aeroespacial entra porque vive de tecnologia de ponta. Esse dinheiro sai de dois lugares mais quietos: o petróleo, que é o negócio antigo, e o fundo de papel, que só paga juros combinados lá atrás. Com tanta gente preferindo o risco, os juros do dia ficam um pouco menores. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual.",
+      "duracaoMeses": 30,
+      "preco": {
+        "cripto-rede": 0.035,
+        "btc": 0.03,
+        "aeroespacial": 0.03,
+        "papel": -0.025,
+        "petroleo": -0.02
+      }
+    },
+    {
+      "id": "dolar-forte",
+      "alcance": "Mundo",
+      "manchete": "O dólar ganha valor",
+      "texto": "O dólar é a moeda em que o mundo guarda reserva, fecha contrato e precifica petróleo e dívida. Quando ele ganha valor e fica assim por anos, importar fica mais caro e o país que deve em dólar sente o aperto. O dinheiro prefere ficar na moeda americana em vez de sair para o risco.",
+      "complemento": "O dólar é a régua com que o mundo compara preço. Quando ele fica forte, viajar e encher a casa de produto importado fica mais caro, então hotel e varejo vendem menos. A cripto costuma ir no sentido contrário: se a moeda americana parece segura e rende bem, menos gente precisa dela. O petróleo é vendido em dólar, então o mesmo barril passa a valer mais. Guardar dinheiro em juros curtos também fica atraente, e o fundo de papel sobe. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual.",
+      "duracaoMeses": 30,
+      "preco": {
+        "cripto": -0.035,
+        "varejo": -0.03,
+        "hoteis": -0.03,
+        "petroleo": 0.03,
+        "papel": 0.03
+      }
+    },
+    {
+      "id": "dolar-fraco",
+      "alcance": "Mundo",
+      "manchete": "O dólar perde valor",
+      "texto": "O dólar perde força e permanece barato por um longo período. A moeda em que o mundo faz reserva passa a comprar menos. Commodity, terra e ativo cotado contra o dólar recebem mais atenção, porque a mesma carga vale mais quando a moeda americana está fraca. O dinheiro sai do porto seguro.",
+      "complemento": "Com o dólar barato, minério e comida, que são vendidos nessa moeda, chamam mais investidor: a mesma carga parece uma pechincha em dólar. A cripto sobe pelo mesmo motivo, porque a moeda americana deixa de ser o único lugar seguro. A indústria ganha porque produzir e exportar fica mais vantajoso. O fundo de papel perde gente, já que os juros deixam de ser o destino óbvio do dinheiro. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual.",
+      "duracaoMeses": 30,
+      "preco": {
+        "mineracao": 0.035,
+        "agro": 0.03,
+        "cripto": 0.035,
+        "industria": 0.02,
+        "papel": -0.03
+      }
+    },
+    {
+      "id": "crise-2008",
+      "alcance": "Mundo",
+      "manchete": "Crise financeira",
+      "texto": "Uma crise de crédito se espalha pelo mundo. Os bancos param de emprestar uns aos outros, o financiamento some e famílias e empresas adiam o que dependia de dívida. Casa, obra e consumo que estavam apoiados em crédito fácil perdem o chão. Para destravar a economia, os juros são cortados e permanecem baixos por anos.",
+      "complemento": "Banco vive de emprestar. Se o crédito trava, o banco vale menos. Sem financiamento, a família adia a casa, a empresa segura o prédio e o shopping perde loja, então o imóvel cai junto. No susto, as pessoas vendem primeiro o que é mais arriscado, e a cripto cai com elas. Os juros são cortados para a economia voltar a andar. Aí acontece o outro lado: o fundo de papel comprado quando a taxa ainda era alta fica melhor do que os títulos novos, e se valoriza. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual.",
+      "duracaoMeses": 30,
+      "preco": {
+        "banco": -0.04,
+        "predios": -0.03,
+        "shopping": -0.025,
+        "cripto": -0.03,
+        "papel": 0.03
+      }
+    },
+    {
+      "id": "bolha-internet",
+      "alcance": "Mundo",
+      "manchete": "Bolha tecnológica estoura",
+      "texto": "Por anos o dinheiro correu para empresa de crescimento e para as redes digitais, até o preço ficar muito à frente do que esses negócios conseguiam entregar. Quando a conta não fecha, a bolha estoura. O que subiu junto cai junto, e leva anos para o preço voltar a ter relação com o que a empresa de fato produz.",
+      "complemento": "Numa bolha, o preço sobe porque cada um espera vender mais caro para o próximo, não porque a empresa lucra mais. Quando isso acaba, bitcoin, redes de cripto e a indústria aeroespacial devolvem a alta de uma vez. O dinheiro que sai do risco procura um lugar previsível, e o fundo de papel recebe essa fuga. A freada também empurra os juros para baixo. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual.",
+      "duracaoMeses": 30,
+      "preco": {
+        "cripto-rede": -0.04,
+        "btc": -0.03,
+        "aeroespacial": -0.035,
+        "papel": 0.025
+      }
+    },
+    {
+      "id": "guerra-comercial",
+      "alcance": "Mundo",
+      "manchete": "Guerra comercial",
+      "texto": "Dois blocos grandes passam a se tratar como rivais no comércio. Tarifa, cota e barreira fecham a porta para o produto do outro. O pedido que cruzava fronteira encolhe, a fábrica produz para um mercado menor e a carga entre países anda mais devagar. A disputa não se resolve numa safra: dura anos.",
+      "complemento": "Tarifa é um imposto cobrado na fronteira. O produto do outro país fica mais caro e o comprador desiste. Mineração, indústria e agro vivem de vender para fora, então perdem pedido e o preço dessas empresas cai. O galpão logístico só existe para guardar e despachar essa carga: com menos navio e menos caminhão, ele também vale menos. O valor da poupança não muda, porque a briga é por comércio, não por taxa de juros.",
+      "duracaoMeses": 30,
+      "preco": {
+        "mineracao": -0.03,
+        "industria": -0.03,
+        "logistica": -0.035,
+        "agro": -0.025
+      }
+    },
+    {
+      "id": "halving-bitcoin",
+      "alcance": "Mundo",
+      "manchete": "Halving do bitcoin",
+      "texto": "Cerca de a cada quatro anos, a recompensa que os mineradores recebem por manter a rede do bitcoin cai pela metade. Entra menos moeda nova no mercado. A regra é pública e está marcada no código: ninguém decide na hora. Com menos oferta nova, o bitcoin fica mais escasso, e o ciclo que costuma seguir esse corte dura anos.",
+      "complemento": "Preço sobe quando nasce menos coisa nova e a procura continua. No halving, entra metade do bitcoin de antes, então ele sobe mais do que o resto. As outras criptos não têm essa regra, mas o investidor animado também as compra: as redes sobem um tanto, e as moedas meme, que são a aposta mais solta, sobem menos. Parte desse dinheiro sai do fundo de papel, o investimento quieto. O valor da poupança e do CDB diário não muda, porque ninguém mexeu nos juros: só na quantidade de bitcoin novo.",
+      "duracaoMeses": 30,
+      "preco": {
+        "btc": 0.04,
+        "cripto-rede": 0.025,
+        "cripto-meme": 0.02,
+        "papel": -0.02
+      }
+    },
+    {
+      "id": "selic-alta",
+      "alcance": "Brasil",
+      "manchete": "Selic alta",
+      "texto": "A Selic é a taxa básica de juros do Brasil, a referência do crédito e da renda fixa. Neste cenário ela fica elevada por anos. Emprestar dinheiro passa a pagar bem, e tomar emprestado fica caro. Financiamento, parcelamento e o custo de carregar uma dívida sobem juntos.",
+      "complemento": "Juros altos são um prêmio por deixar o dinheiro parado. O banco ganha porque empresta mais caro do que paga a quem deixa o dinheiro com ele, e o fundo de papel sobe porque passa a pagar essa taxa boa. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual. Quem precisa pegar emprestado sofre o contrário: a parcela da casa não cabe, o varejo e o shopping vendem menos, e a cripto perde gente, porque muita pessoa troca um investimento que sobe e desce pelos juros certos.",
+      "duracaoMeses": 30,
+      "preco": {
+        "banco": 0.035,
+        "papel": 0.035,
+        "varejo": -0.03,
+        "shopping": -0.025,
+        "cripto": -0.03
+      }
+    },
+    {
+      "id": "selic-baixa",
+      "alcance": "Brasil",
+      "manchete": "Selic baixa",
+      "texto": "A Selic cai e permanece baixa por um longo período. O crédito fica barato: a parcela cabe melhor no salário e a dívida antiga, feita com juros altos, perde vantagem. Guardar dinheiro na renda fixa curta rende pouco, e parte das pessoas procura outro lugar para o que sobra.",
+      "complemento": "Juros baixos barateiam a parcela. Financiar a casa volta a caber no salário, e o que sobra no mês vai para o varejo e o shopping. Com a renda fixa pagando pouco, parte das pessoas aceita mais risco e a cripto recebe dinheiro novo. O fundo de papel perde valor porque deixa de ser um bom negócio: os juros que ele paga já não chamam ninguém. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual.",
+      "duracaoMeses": 30,
+      "preco": {
+        "varejo": 0.035,
+        "shopping": 0.03,
+        "cripto": 0.025,
+        "papel": -0.03
+      }
+    },
+    {
+      "id": "real-fraco",
+      "alcance": "Brasil",
+      "manchete": "O real perde valor",
+      "texto": "O real perde valor e fica fraco por anos. Com a mesma quantidade de reais se compra menos dólar. O que o Brasil vende lá fora passa a render mais em moeda nacional, porque a carga é cotada em dólar. O que o país importa — insumo, peça, produto pronto — fica mais caro na prateleira.",
+      "complemento": "Quem exporta recebe em dólar e, com o real fraco, troca esses dólares por mais reais. Mineração, petróleo e agro vendem para fora, então passam a valer mais. Quem vive da compra aqui dentro sofre o caminho inverso: peça e insumo importados ficam mais caros, a prateleira sobe e a família compra menos. O varejo perde venda. A indústria de bebidas também, porque o custo dela cresce e o cliente corta o que não é essencial.",
+      "duracaoMeses": 30,
+      "preco": {
+        "mineracao": 0.04,
+        "petroleo": 0.035,
+        "agro": 0.035,
+        "varejo": -0.03,
+        "bebidas": -0.025
+      }
+    },
+    {
+      "id": "boom-imobiliario",
+      "alcance": "Brasil",
+      "manchete": "Boom imobiliário",
+      "texto": "Por um longo período, construir e comprar imóvel vira o centro da economia. Tem família entrando no financiamento, pouca oferta pronta e obra em todo canto. O aluguel e o preço do metro quadrado sobem juntos, e o crédito imobiliário segue esse ciclo por anos.",
+      "complemento": "Imóvel sobe quando tem mais gente querendo comprar do que casa pronta. A família entra no financiamento e o prédio comercial é o que mais se valoriza. O shopping sobe no mesmo ciclo, porque a loja paga aluguel mais caro para ficar onde o movimento está. O fundo de papel ganha um pouco junto: boa parte dessa obra é paga com crédito, e esse crédito continua rendendo juros que o papel recebe.",
+      "duracaoMeses": 30,
+      "preco": {
+        "predios": 0.035,
+        "shopping": 0.025,
+        "papel": 0.02
+      }
+    },
+    {
+      "id": "china-compra-brasil",
+      "alcance": "Brasil",
+      "manchete": "A China compra do Brasil",
+      "texto": "A China é a maior compradora de minério e de comida do Brasil. Neste cenário essa demanda cresce e se sustenta por anos. O pedido é grande o bastante para ocupar mina, lavoura, porto e a indústria que fornece máquina e peça para essa cadeia.",
+      "complemento": "Empresa sobe de preço quando aparece um comprador grande e fiel por anos. A China levando mais minério e mais comida segura a mineração e o agro. Essa carga precisa sair do país, então o galpão logístico enche e se valoriza. A indústria que fabrica máquina, peça e insumo para mina e lavoura cresce junto, porque o ciclo pede mais equipamento.",
+      "duracaoMeses": 30,
+      "preco": {
+        "mineracao": 0.035,
+        "agro": 0.03,
+        "logistica": 0.03,
+        "industria": 0.025
+      }
+    },
+    {
+      "id": "desemprego-prolongado",
+      "alcance": "Brasil",
+      "manchete": "Desemprego alto",
+      "texto": "O desemprego fica alto por anos. Menos gente com salário significa menos conta paga, menos parcela em dia e menos compra no fim do mês. A renda das famílias encolhe, e o medo de perder o emprego faz quem ainda trabalha guardar o dinheiro em vez de gastar.",
+      "complemento": "Sem salário, a família corta o que dá para adiar: a compra no varejo, a bebida, o passeio no shopping e o hotel. Esses negócios vendem menos e valem menos. O banco perde também, porque cliente sem renda atrasa a parcela e emprestar deixa de ser um bom negócio. Quem ainda tem dinheiro fica com medo de arriscar e leva a quantia para o fundo de papel. Para convencer as pessoas a emprestar nesse aperto, os juros curtos sobem um pouco. O preço da poupança, do CDB e do Tesouro Selic continua o da carta; o que muda todo mês é o percentual.",
+      "duracaoMeses": 30,
+      "preco": {
+        "varejo": -0.035,
+        "bebidas": -0.03,
+        "shopping": -0.03,
+        "hoteis": -0.03,
+        "banco": -0.025,
+        "papel": 0.03
+      }
+    }
+  ]
+}

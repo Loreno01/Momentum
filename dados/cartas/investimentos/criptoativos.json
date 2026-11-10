@@ -1,0 +1,77 @@
+{
+  "id": "criptoativos",
+  "tipo": "investimento",
+  "nome": "Criptoativos",
+  "cartas": [
+    {
+      "id": "cripto-btc",
+      "sigla": "BTC",
+      "nome": "Bitcoin",
+      "categoria": "Criptoativos",
+      "precoBase": 1,
+      "risco": "Alto",
+      "rendimento": "Valor do Ativo",
+      "retornoPercentualAoMes": 0
+    },
+    {
+      "id": "cripto-eth",
+      "sigla": "ETH",
+      "nome": "Ethereum",
+      "categoria": "Criptoativos",
+      "precoBase": 1,
+      "risco": "Alto",
+      "rendimento": "Valor do Ativo",
+      "retornoPercentualAoMes": 0
+    },
+    {
+      "id": "cripto-sol",
+      "sigla": "SOL",
+      "nome": "Solana",
+      "categoria": "Criptoativos",
+      "precoBase": 1,
+      "risco": "Muito Alto",
+      "rendimento": "Valor do Ativo",
+      "retornoPercentualAoMes": 0
+    },
+    {
+      "id": "cripto-link",
+      "sigla": "LINK",
+      "nome": "Chainlink",
+      "categoria": "Criptoativos",
+      "precoBase": 1,
+      "risco": "Muito Alto",
+      "rendimento": "Valor do Ativo",
+      "retornoPercentualAoMes": 0
+    },
+    {
+      "id": "cripto-uni",
+      "sigla": "UNI",
+      "nome": "Uniswap",
+      "categoria": "Criptoativos",
+      "precoBase": 1,
+      "risco": "Muito Alto",
+      "rendimento": "Valor do Ativo",
+      "retornoPercentualAoMes": 0
+    },
+    {
+      "id": "cripto-doge",
+      "sigla": "DOGE",
+      "nome": "Dogecoin",
+      "categoria": "Criptoativos",
+      "precoBase": 1,
+      "risco": "Muito Alto",
+      "rendimento": "Valor do Ativo",
+      "retornoPercentualAoMes": 0
+    },
+    {
+      "id": "cripto-shib",
+      "sigla": "SHIB",
+      "nome": "Shiba Inu",
+      "categoria": "Criptoativos",
+      "precoBase": 1,
+      "risco": "Muito Alto",
+      "rendimento": "Valor do Ativo",
+      "retornoPercentualAoMes": 0
+    }
+  ]
+}

@@ -1,0 +1,70 @@
+{
+  "id": "fiis",
+  "tipo": "investimento",
+  "nome": "Fundos imobiliários",
+  "cartas": [
+    {
+      "id": "fii-logistica",
+      "nome": "FII Logística Extrema",
+      "categoria": "Fundos imobiliários",
+      "precoBase": 100,
+      "risco": "Baixo",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 0.8
+    },
+    {
+      "id": "fii-shoppings",
+      "nome": "FII Shoppings do Futuro",
+      "categoria": "Fundos imobiliários",
+      "precoBase": 100,
+      "risco": "Baixo",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 0.85
+    },
+    {
+      "id": "fii-predios",
+      "nome": "FII Prédios Corporativos",
+      "categoria": "Fundos imobiliários",
+      "precoBase": 100,
+      "risco": "Médio",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 0.9
+    },
+    {
+      "id": "fii-hoteis",
+      "nome": "FII Hotéis & Turismo",
+      "categoria": "Fundos imobiliários",
+      "precoBase": 10,
+      "risco": "Médio",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 0.95
+    },
+    {
+      "id": "fii-agro",
+      "nome": "FII Agro Terras",
+      "categoria": "Fundos imobiliários",
+      "precoBase": 10,
+      "risco": "Médio",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 1.1
+    },
+    {
+      "id": "fii-papel",
+      "nome": "FII Papel",
+      "categoria": "Fundos imobiliários",
+      "precoBase": 10,
+      "risco": "Médio",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 1.2
+    },
+    {
+      "id": "fii-papel-high-yield",
+      "nome": "FII Papel High Yield",
+      "categoria": "Fundos imobiliários",
+      "precoBase": 10,
+      "risco": "Alto",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 1.45
+    }
+  ]
+}

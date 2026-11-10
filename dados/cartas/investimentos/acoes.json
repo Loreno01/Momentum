@@ -1,0 +1,70 @@
+{
+  "id": "acoes",
+  "tipo": "investimento",
+  "nome": "Ações",
+  "cartas": [
+    {
+      "id": "acao-mineracao",
+      "nome": "Empresa de Mineração",
+      "categoria": "Ações",
+      "precoBase": 1,
+      "risco": "Médio",
+      "rendimento": "Dividendos Semestrais + Valor do Ativo",
+      "retornoPercentualAoMes": 0.58
+    },
+    {
+      "id": "acao-petroleo",
+      "nome": "Produtora de Petróleo",
+      "categoria": "Ações",
+      "precoBase": 1,
+      "risco": "Médio",
+      "rendimento": "Dividendos Trimestrais + Valor do Ativo",
+      "retornoPercentualAoMes": 0.6
+    },
+    {
+      "id": "acao-banco",
+      "nome": "Instituição Bancária",
+      "categoria": "Ações",
+      "precoBase": 1,
+      "risco": "Baixo",
+      "rendimento": "Dividendos Mensais + Valor do Ativo",
+      "retornoPercentualAoMes": 0.6
+    },
+    {
+      "id": "acao-bebidas",
+      "nome": "Indústria de Bebidas",
+      "categoria": "Ações",
+      "precoBase": 1,
+      "risco": "Baixo",
+      "rendimento": "Dividendos Anuais + Valor do Ativo",
+      "retornoPercentualAoMes": 0.42
+    },
+    {
+      "id": "acao-metalurgica",
+      "nome": "Metalúrgica Industrial",
+      "categoria": "Ações",
+      "precoBase": 1,
+      "risco": "Baixo",
+      "rendimento": "Dividendos Trimestrais + Valor do Ativo",
+      "retornoPercentualAoMes": 0.6
+    },
+    {
+      "id": "acao-varejo",
+      "nome": "Empresa de Varejo",
+      "categoria": "Ações",
+      "precoBase": 1,
+      "risco": "Alto",
+      "rendimento": "Valor do Ativo",
+      "retornoPercentualAoMes": 0
+    },
+    {
+      "id": "acao-aeroespacial",
+      "nome": "Indústria Aeroespacial",
+      "categoria": "Ações",
+      "precoBase": 1,
+      "risco": "Médio-Alto",
+      "rendimento": "Valor do Ativo",
+      "retornoPercentualAoMes": 0
+    }
+  ]
+}

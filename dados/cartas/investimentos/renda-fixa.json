@@ -1,0 +1,74 @@
+{
+  "id": "renda-fixa",
+  "tipo": "investimento",
+  "nome": "Renda fixa",
+  "cartas": [
+    {
+      "id": "renda-poupanca",
+      "nome": "Poupança",
+      "categoria": "Renda Fixa",
+      "precoBase": 1,
+      "risco": "Muito Baixo",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 0.6
+    },
+    {
+      "id": "renda-cdb-diario",
+      "nome": "CDB Liquidez Diária",
+      "categoria": "Renda Fixa",
+      "precoBase": 1,
+      "risco": "Muito Baixo",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 1.0
+    },
+    {
+      "id": "renda-tesouro-selic",
+      "nome": "Tesouro Selic",
+      "categoria": "Renda Fixa",
+      "precoBase": 100,
+      "risco": "Muito Baixo",
+      "rendimento": "Todo mês",
+      "retornoPercentualAoMes": 1.05
+    },
+    {
+      "id": "renda-cdb-1-ano",
+      "nome": "CDB 1 Ano",
+      "categoria": "Renda Fixa",
+      "precoBase": 100,
+      "risco": "Baixo",
+      "rendimento": "Todo mês (Ativo bloqueado por 1 ano)",
+      "retornoPercentualAoMes": 1.1,
+      "bloqueioVendaRodadas": 1
+    },
+    {
+      "id": "renda-cdb-2-anos",
+      "nome": "CDB 2 Anos",
+      "categoria": "Renda Fixa",
+      "precoBase": 100,
+      "risco": "Baixo",
+      "rendimento": "Todo mês (Ativo bloqueado por 2 anos)",
+      "retornoPercentualAoMes": 1.15,
+      "bloqueioVendaRodadas": 2
+    },
+    {
+      "id": "renda-cdb-3-anos",
+      "nome": "CDB 3 Anos",
+      "categoria": "Renda Fixa",
+      "precoBase": 100,
+      "risco": "Baixo",
+      "rendimento": "Todo mês (Ativo bloqueado por 3 anos)",
+      "retornoPercentualAoMes": 1.25,
+      "bloqueioVendaRodadas": 3
+    },
+    {
+      "id": "renda-cdb-5-anos",
+      "nome": "CDB 5 Anos",
+      "categoria": "Renda Fixa",
+      "precoBase": 100,
+      "risco": "Médio",
+      "rendimento": "Todo mês (Ativo bloqueado por 5 anos)",
+      "retornoPercentualAoMes": 1.35,
+      "bloqueioVendaRodadas": 5
+    }
+  ]
+}

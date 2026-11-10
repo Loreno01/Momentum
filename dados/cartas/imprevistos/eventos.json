@@ -1,0 +1,359 @@
+{
+  "id": "imprevistos",
+  "tipo": "imprevisto",
+  "nome": "Imprevistos",
+  "aumentoPorVolta": 0.06,
+  "explicacao": "O valor de cada carta é o custo na volta 1. A cada volta ele sobe por aumentoPorVolta, como o salário. Para mudar um imprevisto, altere o valor dele. Para mudar o reajuste de todos, altere aumentoPorVolta.",
+  "cartas": [
+    {
+      "id": "imprevisto-01-aniversario-familiar",
+      "numero": 1,
+      "nome": "Aniversário Familiar",
+      "descricao": "É o aniversário do seu pai! Você não pode deixar de demonstrar seu carinho e precisa comprar um presente de última hora.",
+      "valor": 100
+    },
+    {
+      "id": "imprevisto-02-manutencao-do-carro",
+      "numero": 2,
+      "nome": "Manutenção do Carro",
+      "descricao": "O motor do seu carro começou a fazer um barulho estranho. A visita ao mecânico constatou que uma peça importante precisa ser trocada por segurança.",
+      "valor": 300
+    },
+    {
+      "id": "imprevisto-03-emergencia-odontologica",
+      "numero": 3,
+      "nome": "Emergência Odontológica",
+      "descricao": "Você quebrou uma parte do dente mastigando algo duro no almoço. Foi necessário agendar uma consulta de emergência no dentista para fazer uma restauração.",
+      "valor": 200
+    },
+    {
+      "id": "imprevisto-04-eletrodomestico-quebrado",
+      "numero": 4,
+      "nome": "Eletrodoméstico Quebrado",
+      "descricao": "Sua geladeira simplesmente parou de funcionar no meio da semana. Para não perder todos os alimentos congelados, você precisou chamar um técnico para o conserto urgente.",
+      "valor": 150
+    },
+    {
+      "id": "imprevisto-05-casamento-dos-amigos",
+      "numero": 5,
+      "nome": "Casamento dos Amigos",
+      "descricao": "Um grande amigo seu vai se casar! Entre a compra do presente da lista oficial e os custos com o traje para a cerimônia, a despesa pesou no orçamento.",
+      "valor": 250
+    },
+    {
+      "id": "imprevisto-06-imposto-inesperado",
+      "numero": 6,
+      "nome": "Imposto Inesperado",
+      "descricao": "Você esqueceu de contabilizar uma taxa obrigatória anual ou uma multa de trânsito residual que vence exatamente esta semana.",
+      "valor": 120
+    },
+    {
+      "id": "imprevisto-07-infiltracao-em-casa",
+      "numero": 7,
+      "nome": "Infiltração em Casa",
+      "descricao": "Uma mancha escura apareceu na parede do banheiro: há um vazamento no encanamento. Você precisa pagar o material de construção e o encanador para quebrar e consertar.",
+      "valor": 400
+    },
+    {
+      "id": "imprevisto-08-tela-do-celular-rachada",
+      "numero": 8,
+      "nome": "Tela do Celular Rachada",
+      "descricao": "Seu celular escorregou do bolso e caiu direto no chão, estilhaçando a tela inteira. O conserto do display é obrigatório para continuar usando.",
+      "valor": 180
+    },
+    {
+      "id": "imprevisto-09-consulta-veterinaria",
+      "numero": 9,
+      "nome": "Consulta Veterinária",
+      "descricao": "Seu animal de estimação ficou apático e parou de comer. A consulta na clínica veterinária e os remédios iniciais cobraram o seu preço.",
+      "valor": 140
+    },
+    {
+      "id": "imprevisto-10-vazamento-de-gas",
+      "numero": 10,
+      "nome": "Vazamento de Gás",
+      "descricao": "A mangueira e o regulador do gás da cozinha passaram da validade e começaram a apresentar um leve vazamento. Troca imediata por segurança.",
+      "valor": 90
+    },
+    {
+      "id": "imprevisto-11-chaveiro-de-emergencia",
+      "numero": 11,
+      "nome": "Chaveiro de Emergência",
+      "descricao": "Você saiu apressado de casa e acabou trancando a porta com as chaves do lado de dentro. Foi preciso chamar um chaveiro plantonista no meio da noite.",
+      "valor": 110
+    },
+    {
+      "id": "imprevisto-12-renovacao-de-seguro",
+      "numero": 12,
+      "nome": "Renovação de Seguro",
+      "descricao": "A parcela de renovação do seguro residencial ou automotivo venceu de surpresa, sem dar tempo de provisionar o dinheiro de forma suave.",
+      "valor": 350
+    },
+    {
+      "id": "imprevisto-13-remedios-para-gripe",
+      "numero": 13,
+      "nome": "Remédios para Gripe",
+      "descricao": "Uma gripe forte pegou você de surpresa. A conta na farmácia com xaropes, analgésicos e vitaminas acabou saindo mais cara do que o previsto.",
+      "valor": 65
+    },
+    {
+      "id": "imprevisto-14-mensalidade-escolar-reajustada",
+      "numero": 14,
+      "nome": "Mensalidade Escolar Reajustada",
+      "descricao": "Um erro de cálculo ou reajuste retroativo na mensalidade do seu curso ou da escola gerou um boleto extra inesperado.",
+      "valor": 160
+    },
+    {
+      "id": "imprevisto-15-conserto-de-notebook",
+      "numero": 15,
+      "nome": "Conserto de Notebook",
+      "descricao": "O cooler do seu notebook de estudos parou de girar e a máquina começou a travar por superaquecimento. Limpeza e troca da peça na assistência.",
+      "valor": 220
+    },
+    {
+      "id": "imprevisto-16-presente-de-cha-de-bebe",
+      "numero": 16,
+      "nome": "Presente de Chá de Bebê",
+      "descricao": "Um colega de trabalho muito querido anunciou a chegada do primeiro filho. Você participou da vaquinha coletiva para comprar o carrinho de bebê.",
+      "valor": 70
+    },
+    {
+      "id": "imprevisto-17-multa-por-atraso",
+      "numero": 17,
+      "nome": "Multa por Atraso",
+      "descricao": "Você acabou esquecendo de pagar um boleto importante no dia correto. Os juros e a multa por atraso foram cobrados logo na sequência.",
+      "valor": 45
+    },
+    {
+      "id": "imprevisto-18-roupas-de-frio-urgentes",
+      "numero": 18,
+      "nome": "Roupas de Frio Urgentes",
+      "descricao": "Uma onda de frio histórico atingiu a região e você percebeu que suas roupas pesadas estavam desgastadas. Precisou comprar casacos novos.",
+      "valor": 200
+    },
+    {
+      "id": "imprevisto-19-vidro-da-janela-quebrado",
+      "numero": 19,
+      "nome": "Vidro da Janela Quebrado",
+      "descricao": "Durante uma ventania forte ou um acidente doméstico, uma vidraça da sala acabou quebrando e precisa ser substituída por um vidraceiro.",
+      "valor": 130
+    },
+    {
+      "id": "imprevisto-20-furto-do-casaco",
+      "numero": 20,
+      "nome": "Furto do Casaco",
+      "descricao": "Você acabou esquecendo seu casaco favorito em uma cadeira da praça de alimentação e, quando voltou para buscar, ele já não estava mais lá.",
+      "valor": 150
+    },
+    {
+      "id": "imprevisto-21-revisao-da-moto",
+      "numero": 21,
+      "nome": "Revisão da Moto",
+      "descricao": "A corrente e as pastilhas de freio da sua moto de locomoção diária atingiram o limite de desgaste e precisaram ser trocadas preventivamente.",
+      "valor": 170
+    },
+    {
+      "id": "imprevisto-22-infestacao-de-insetos",
+      "numero": 22,
+      "nome": "Infestação de Insetos",
+      "descricao": "Cupins ou formigas começaram a danificar um móvel de madeira na sua casa. Você precisou comprar produtos de dedetização fortes.",
+      "valor": 85
+    },
+    {
+      "id": "imprevisto-23-aparelho-de-jantar-quebrado",
+      "numero": 23,
+      "nome": "Aparelho de Jantar Quebrado",
+      "descricao": "Ao lavar a louça, você acabou derrubando a pilha de pratos principais, quebrando quase o conjunto inteiro. Hora de comprar peças novas.",
+      "valor": 115
+    },
+    {
+      "id": "imprevisto-24-perda-de-documentos",
+      "numero": 24,
+      "nome": "Perda de Documentos",
+      "descricao": "Você perdeu sua carteira com os documentos principais. Taxas para emissão de segunda via do RG, CNH e custos de transporte para ir buscá-los.",
+      "valor": 95
+    },
+    {
+      "id": "imprevisto-25-assinatura-esquecida",
+      "numero": 25,
+      "nome": "Assinatura Esquecida",
+      "descricao": "Aquele serviço de streaming ou software caro que você testou e esqueceu de cancelar renovou automaticamente a anuidade no seu cartão.",
+      "valor": 140
+    },
+    {
+      "id": "imprevisto-26-pneu-furado-no-meio-do-caminho",
+      "numero": 26,
+      "nome": "Pneu Furado no Meio do Caminho",
+      "descricao": "Você passou por cima de um parafuso na avenida. O pneu rasgou e não deu conserto, obrigando você a comprar um pneu novo para o veículo.",
+      "valor": 280
+    },
+    {
+      "id": "imprevisto-27-conserto-de-ar-condicionado",
+      "numero": 27,
+      "nome": "Conserto de Ar Condicionado",
+      "descricao": "Em pleno verão, o aparelho de ar condicionado começou a gotejar água para dentro do quarto e parou de gelar. Custo da manutenção técnica.",
+      "valor": 190
+    },
+    {
+      "id": "imprevisto-28-presente-de-casamento",
+      "numero": 28,
+      "nome": "Presente de Casamento",
+      "descricao": "Mais um convite recebido! Para não fazer feio, escolheu um item intermediário na lista de presentes online dos noivos.",
+      "valor": 210
+    },
+    {
+      "id": "imprevisto-29-taxa-de-condominio-extra",
+      "numero": 29,
+      "nome": "Taxa de Condomínio Extra",
+      "descricao": "Uma assembleia emergencial aprovou uma cota extra no condomínio para pintar a fachada ou consertar o portão eletrônico do prédio.",
+      "valor": 250
+    },
+    {
+      "id": "imprevisto-30-exame-medico-particular",
+      "numero": 30,
+      "nome": "Exame Médico Particular",
+      "descricao": "O plano de saúde não cobria um exame específico que o médico pediu com urgência. Você teve que pagar o laboratório do próprio bolso.",
+      "valor": 320
+    },
+    {
+      "id": "imprevisto-31-livros-didaticos-cursos",
+      "numero": 31,
+      "nome": "Livros Didáticos/Cursos",
+      "descricao": "Surgiu a oportunidade de fazer um treinamento rápido essencial para sua carreira, mas o material didático precisou ser adquirido à parte.",
+      "valor": 165
+    },
+    {
+      "id": "imprevisto-32-estofado-manchado",
+      "numero": 32,
+      "nome": "Estofado Manchado",
+      "descricao": "Um acidente com café ou vinho estragou completamente o estofado do seu sofá. Você contratou um serviço profissional de lavagem a seco.",
+      "valor": 125
+    },
+    {
+      "id": "imprevisto-33-bateria-do-carro-arriada",
+      "numero": 33,
+      "nome": "Bateria do Carro Arriada",
+      "descricao": "O carro simplesmente não deu partida pela manhã. A bateria antiga esgotou sua vida útil e você precisou comprar uma nova com urgência.",
+      "valor": 340
+    },
+    {
+      "id": "imprevisto-34-troca-de-chuveiro-eletrico",
+      "numero": 34,
+      "nome": "Troca de Chuveiro Elétrico",
+      "descricao": "A resistência do chuveiro queimou no meio do banho gelado e a estrutura plástica já estava rachada. Compra e instalação de um modelo novo.",
+      "valor": 80
+    },
+    {
+      "id": "imprevisto-35-conta-de-luz-abusiva",
+      "numero": 35,
+      "nome": "Conta de Luz Abusiva",
+      "descricao": "O uso excessivo de eletrodomésticos no mês passado ou a mudança para a bandeira tarifária vermelha fez sua conta de energia explodir.",
+      "valor": 110
+    },
+    {
+      "id": "imprevisto-36-conserto-de-micro-ondas",
+      "numero": 36,
+      "nome": "Conserto de Micro-ondas",
+      "descricao": "O aparelho começou a soltar faíscas por dentro devido a um componente queimado na placa de potência. Custo do reparo em oficina.",
+      "valor": 135
+    },
+    {
+      "id": "imprevisto-37-estacionamento-abusivo",
+      "numero": 37,
+      "nome": "Estacionamento Abusivo",
+      "descricao": "Você precisou deixar o carro em um estacionamento privado perto de um evento por várias horas e a tarifa por fração de tempo assustou.",
+      "valor": 55
+    },
+    {
+      "id": "imprevisto-38-quebra-de-oculos-de-grau",
+      "numero": 38,
+      "nome": "Quebra de Óculos de Grau",
+      "descricao": "Você sentou acidentalmente em cima dos seus óculos de grau. A armação entortou e uma das lentes riscou profundamente, exigindo conserto.",
+      "valor": 260
+    },
+    {
+      "id": "imprevisto-39-encanamento-entupido",
+      "numero": 39,
+      "nome": "Encanamento Entupido",
+      "descricao": "A pia da cozinha entupiu completamente, travando o uso da casa. Foi necessário chamar uma empresa desentupidora profissional.",
+      "valor": 145
+    },
+    {
+      "id": "imprevisto-40-reparo-de-portao",
+      "numero": 40,
+      "nome": "Reparo de Portão",
+      "descricao": "O motor do portão eletrônico da garagem queimou após uma forte descarga elétrica causada por raios durante um temporal noturno.",
+      "valor": 230
+    },
+    {
+      "id": "imprevisto-41-pedagio-em-viagem",
+      "numero": 41,
+      "nome": "Pedágio em Viagem",
+      "descricao": "Uma viagem de última hora exigiu que você passasse por uma rota cheia de praças de pedágio caras, consumindo o dinheiro físico da carteira.",
+      "valor": 50
+    },
+    {
+      "id": "imprevisto-42-perda-de-bagagem-custos",
+      "numero": 42,
+      "nome": "Perda de Bagagem / Custos",
+      "descricao": "Sua mala extraviou temporariamente e você precisou comprar itens básicos de higiene e mudas de roupa até o problema ser resolvido.",
+      "valor": 175
+    },
+    {
+      "id": "imprevisto-43-taxa-de-bagagem-despachada",
+      "numero": 43,
+      "nome": "Taxa de Bagagem Despachada",
+      "descricao": "Você errou o peso limite da mala no aeroporto ou a franquia da passagem e precisou pagar o excesso direto no balcão de check-in.",
+      "valor": 130
+    },
+    {
+      "id": "imprevisto-44-assalto-pequeno-prejuizo",
+      "numero": 44,
+      "nome": "Assalto / Pequeno Prejuízo",
+      "descricao": "Levaram alguns pertences de menor valor ou sua mochila com objetos pessoais simples do dia a dia, gerando custo de reposição imediata.",
+      "valor": 200
+    },
+    {
+      "id": "imprevisto-45-manutencao-de-bicicleta",
+      "numero": 45,
+      "nome": "Manutenção de Bicicleta",
+      "descricao": "O pneu da bicicleta rasgou e a corrente quebrou enquanto você pedalava para o trabalho. Custo das peças novas na bicicletaria.",
+      "valor": 75
+    },
+    {
+      "id": "imprevisto-46-filtro-de-agua-quebrado",
+      "numero": 46,
+      "nome": "Filtro de Água Quebrado",
+      "descricao": "O purificador de água começou a vazar constantemente pelo botão, molhando os móveis. Troca do elemento filtrante e do bocal.",
+      "valor": 85
+    },
+    {
+      "id": "imprevisto-47-lavanderia-de-emergencia",
+      "numero": 47,
+      "nome": "Lavanderia de Emergência",
+      "descricao": "Um problema na máquina de lavar roupas da sua residência acumulou peças sujas e você precisou levar tudo a uma lavanderia expressa.",
+      "valor": 60
+    },
+    {
+      "id": "imprevisto-48-suporte-de-tv-rompido",
+      "numero": 48,
+      "nome": "Suporte de TV Rompido",
+      "descricao": "O suporte de parede da televisão afrouxou e quase derrubou o aparelho. Você comprou um suporte reforçado e pagou a instalação.",
+      "valor": 105
+    },
+    {
+      "id": "imprevisto-49-troca-de-fechadura",
+      "numero": 49,
+      "nome": "Troca de Fechadura",
+      "descricao": "A chave emperrou e quebrou dentro do miolo da fechadura da porta da frente, tornando impossível trancar a casa com segurança.",
+      "valor": 120
+    },
+    {
+      "id": "imprevisto-50-pintura-por-danos-na-parede",
+      "numero": 50,
+      "nome": "Pintura por Danos na Parede",
+      "descricao": "Seu animal de estimação ou uma batida de móvel arranhou severamente a pintura da parede da sala de visitas. Custo da tinta para retoque.",
+      "valor": 90
+    }
+  ]
+}
